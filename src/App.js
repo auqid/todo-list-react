@@ -1,10 +1,28 @@
-import logo from './logo.svg';
 import './App.css';
-
+import Input from './components/input/Input';
+import TaskList from './components/input/TaskList.js/TaskList';
+import { useState } from 'react';
+const DUMMY=[]
 function App() {
+  
+const[tasks,setTasks]=useState(DUMMY)
+
+
+const taskCreator=(enteredTasks)=>{
+  setTasks((prevState)=>{
+    return [enteredTasks,...prevState]
+    
+  })
+  console.log('from app.js',tasks)
+  
+}
+  
+  
+  
   return (
     <div className="App">
-      TODO_LISTs
+      <Input submission={taskCreator}></Input>
+      <TaskList items={tasks}></TaskList> 
     </div>
   );
 }
