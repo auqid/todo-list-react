@@ -2,6 +2,7 @@ import React from 'react'
 import RenderTasks from '../../RenderTasks/RenderTasks'
 
 const TaskList = (props) => {
+console.log('from tasklist',props)
   return (
     <div>
       {props.items.map((tasks) => (
@@ -9,6 +10,7 @@ const TaskList = (props) => {
           key={tasks.id}
           title={tasks.title}
           date={tasks.date}
+          time={tasks.time}
         />
       ))}
     </div>

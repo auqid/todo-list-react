@@ -8,6 +8,7 @@ function App() {
 const[tasks,setTasks]=useState(DUMMY)
 
 
+
 const taskCreator=(enteredTasks)=>{
   setTasks((prevState)=>{
     return [enteredTasks,...prevState]
@@ -22,7 +23,7 @@ const taskCreator=(enteredTasks)=>{
   return (
     <div className="App">
       <Input submission={taskCreator}></Input>
-      <TaskList items={tasks}></TaskList> 
+      <TaskList items={tasks} ></TaskList> 
     </div>
   );
 }

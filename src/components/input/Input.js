@@ -23,15 +23,15 @@ const Input = (props) => {
      const tasks ={
         id:key,
         title:title,
-        date: date.toLocaleString(),
-        
+        date: `${date.getDate()}/${date.getMonth()}/${date.getFullYear()}`,
+        time:`${date.getHours()}:${date.getMinutes()}`
             
         }
         console.log('from input',tasks)
         
         props.submission(tasks)
         setTitle('')
-        setDate('')
+        
 
         
 
