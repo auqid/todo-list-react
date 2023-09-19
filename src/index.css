@@ -5,7 +5,8 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background: yellow;
+  background: rgb(230,184,204);
+background: radial-gradient(circle, rgba(230,184,204,1) 0%, rgba(179,197,218,1) 100%);
   
 
 

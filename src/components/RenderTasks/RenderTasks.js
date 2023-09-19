@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react'
+import React from 'react'
 import './RenderTasks.css'
 import { useState} from 'react'
 
@@ -24,10 +24,9 @@ const RenderTasks = (props) => {
     <div className='task__done'>{!check?'Goodjob!':'You can do it!'}</div>
     
     
-  <div className="checkbox-wrapper-1">
-  <input onClick={checkBoxHandler} id="example-1" className="substituted" type="checkbox" aria-hidden="true" />
-  <label htmlFor="example-1">Completed?</label>
-  <input onClick={checkBoxHandler} id="example-1" className="substituted" type="checkbox" aria-hidden="true" />
+  <div className="checkbox">
+  <input onClick={checkBoxHandler} id="check" className="task___checkbox" type="checkbox" aria-hidden="true" />
+  <label htmlFor="check">Completed?</label>
 </div>
 
     
