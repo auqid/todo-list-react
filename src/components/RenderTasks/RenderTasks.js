@@ -8,8 +8,7 @@ const RenderTasks = (props) => {
 
     <div className='task'>
     <div className='task__title'>{props.title}</div>
-     <div className='task__date'>Date: {props.date}</div>
-     <div className='task___time'>Time: {props.time}</div>
+     <div className='task__date'> <div>Date: {props.date} </div><div>Time:{props.time}</div></div>
 </div>
         
       

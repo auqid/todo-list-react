@@ -1,0 +1,88 @@
+.sup{
+    
+    background-color:rgba(252, 84, 0, 0.407);
+    backdrop-filter: blue;
+    
+    align-content:space-around;
+    justify-content: center;
+    
+    margin:10px;
+    border: solid red 1px;
+    padding: 10px;
+    flex-wrap: wrap;
+    color: white;
+    border-radius: 12px;
+    flex:1;
+    
+}
+
+
+
+
+.form button {
+  
+ align-items: center;
+  background-clip: padding-box;
+  background-color: #fa6400;
+  border: 1px solid transparent;
+  border-radius: .25rem;
+  box-shadow: rgba(0, 0, 0, 0.02) 0 1px 3px 0;
+  box-sizing: border-box;
+  color: black;
+  cursor: pointer;
+  margin-left: 1rem;
+  font-family: system-ui,-apple-system,system-ui,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  justify-content: center;
+  padding: calc(.875rem - 1px) calc(1.5rem - 1px);
+  text-decoration: none;
+  transition: all 250ms;
+  touch-action: manipulation;
+}
+
+.form button:hover,
+.form button:focus {
+  background-color: #fb8332;
+  box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
+}
+
+.form button:hover {
+  transform: translateY(-1px);
+}
+.form button:active {
+  background-color: #c85000;
+  box-shadow: rgba(0, 0, 0, .06) 0 2px 4px;
+  transform: translateY(0);
+}
+
+.form label{
+    font-size: 1.5rem;
+    margin-right: 10px;
+    font-family:-apple-system,system-ui,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    color: black;
+}
+.form input{
+    font-family:-apple-system,system-ui,"Helvetica Neue",Helvetica,Arial,sans-serif;
+        width: 40%; 
+        padding: 8px 16px;
+        line-height: 25px;
+        font-size: 14px;
+        font-weight: 500;
+        font-family: inherit;
+        border-radius: 6px;
+        color: white;
+        border: 1px solid white;
+        background: #e3925c;
+        transition: border .3s ease;
+        &::placeholder {
+            color: rgb(85, 75, 75);
+        }
+        &:focus {
+            outline: none;
+            border-color: red;
+        }
+    }
+
+
+

@@ -1,6 +1,6 @@
 import './App.css';
 import Input from './components/input/Input';
-import TaskList from './components/input/TaskList.js/TaskList';
+import TaskList from './components/TaskList.js/TaskList';
 import { useState } from 'react';
 const DUMMY=[]
 function App() {
