@@ -1,15 +1,16 @@
 import React from 'react'
+import './RenderTasks.css'
 
 const RenderTasks = (props) => {
   console.log('from render tasks',props)
     return (
 
 
-    <card classname='card'>
-    <h3>{props.title}</h3>
-    <h3>{props.date}</h3>
-    <h3>{props.time}</h3>
-</card>
+    <div className='task'>
+    <div className='task__title'>{props.title}</div>
+     <div className='task__date'>Date: {props.date}</div>
+     <div className='task___time'>Time: {props.time}</div>
+</div>
         
       
   )

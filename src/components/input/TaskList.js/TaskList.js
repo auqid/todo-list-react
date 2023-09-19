@@ -5,12 +5,12 @@ const TaskList = (props) => {
 console.log('from tasklist',props)
   return (
     <div>
-      {props.items.map((tasks) => (
+      {props.items.map((task) => (
         <RenderTasks
-          key={tasks.id}
-          title={tasks.title}
-          date={tasks.date}
-          time={tasks.time}
+          key={task.id}
+          title={task.title}
+          date={task.date}
+          time={task.time}
         />
       ))}
     </div>
