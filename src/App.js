@@ -1,23 +1,29 @@
-import logo from './logo.svg';
 import './App.css';
-
+import Input from './components/input/Input';
+import TaskList from './components/TaskList.js/TaskList';
+import { useState } from 'react';
+const DUMMY=[]
 function App() {
+  
+const[tasks,setTasks]=useState(DUMMY)
+
+
+
+const taskCreator=(enteredTasks)=>{
+  setTasks((prevState)=>{
+    return [enteredTasks,...prevState]
+    
+  })
+  console.log('from app.js',tasks)
+  
+}
+  
+  
+  
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Input submission={taskCreator}></Input>
+      <TaskList items={tasks} ></TaskList> 
     </div>
   );
 }

@@ -1,0 +1,36 @@
+.task{
+    display: flex;
+    background-color:rgba(252, 84, 0, 0.407);
+    backdrop-filter: blue;
+    
+    align-content: center;
+    justify-content: space-between;
+    
+    margin:10px;
+    border: solid red 1px;
+    padding: 10px;
+    flex-wrap: wrap;
+    color: black;
+    border-radius: 12px;
+
+}
+
+.task__title{
+    display:flex;
+    font-size: larger;
+    margin-left: 1rem;
+    
+}
+
+.task__date{
+    display: flex;
+    flex-direction: column;
+    border:solid rgba(242, 100, 11, 0.782) 1px;
+    border-radius: 12px;
+    padding:0.25rem;
+    background-color: #fa640095;
+    color:black;
+}
+
+
+
