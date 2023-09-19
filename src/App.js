@@ -22,6 +22,7 @@ const taskCreator=(enteredTasks)=>{
   
   return (
     <div className="App">
+      TODO-LIST
       <Input submission={taskCreator}></Input>
       <TaskList items={tasks} ></TaskList> 
     </div>
