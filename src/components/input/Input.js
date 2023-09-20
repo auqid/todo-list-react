@@ -11,7 +11,7 @@ const Input = (props) => {
     const texthandler=(event)=>{
         setTitle(event.target.value)
         setDate(new Date().toLocaleDateString())
-        setTime(new Date().toLocaleTimeString())
+        setTime(new Date().toLocaleTimeString('en-us'))
     }
     const keyhandler = ()=>{
         setKey((prevState)=>{

@@ -1,24 +1,91 @@
 .task{
     display: flex;
-    background-color:rgba(252, 84, 0, 0.407);
-    backdrop-filter: blue;
+    background-color:rgb(0, 149, 255);
+    
     
     align-content: center;
     justify-content: space-between;
     
     margin:10px;
     border: solid red 1px;
-    padding: 10px;
+    
     flex-wrap: wrap;
     color: black;
     border-radius: 12px;
+    padding: 100px;
+    width: 62%;
+    margin-left: 15%;
+    background-image: url(../../../public/cando.jpg);
+    background-size: contain;
+    
+    
 
+}
+
+.task__completed{
+    display: flex;
+    background: rgba(3, 238, 50, 0.74);
+    align-content: center;
+    justify-content: space-between;
+    margin:10px;
+    border: solid red 1px;
+    padding: 100px;
+    width: 62%;
+    margin-left: 15%;
+    flex-wrap: wrap;
+    color: black;
+    border-radius: 12px;
+    
+    
+    background-image: url(../../../public/completed.png);
+    background-size: contain;
+}
+.task__wrong{
+    display: flex;
+    background-color:rgb(255, 0, 0);
+    align-content: center;
+    justify-content: center;
+    margin:10px;
+    border: solid red 1px;
+    
+    color: black;
+    border-radius: 12px;
+    padding: 30px;
+    width: 68.5%;
+    margin-left: 15%;
+    background-image: url(../../../public/wrong.jpg)  ;
+    background-size:cover ;
+    background-repeat: repeat;
+    font: 900 30px Arial;
+  -webkit-text-fill-color: white;
+  -webkit-text-stroke: 1px;
+    
+}
+.task__invalid{
+    display: flex;
+    background-color:rgb(255, 0, 0);
+    align-content: center;
+    justify-content: center;
+    margin:10px;
+    border: solid red 1px;
+    padding: 10px;
+    color: black;
+    border-radius: 12px;
+    width: 70%;
+    margin-left: 15%;
+    background-image: url(../../../public/mrmeeseeks2.jpg) ;
+    background-size: 500px;
+    font: 900 30px Arial;
+  -webkit-text-fill-color: white;
+  -webkit-text-stroke: 1px;
+    
 }
 
 .task__title{
     display:flex;
     font-size: larger;
-    margin-left: 1rem;
+    align-content: flex-start;
+    font-weight:500;
     
 }
 
@@ -34,3 +101,8 @@
 
 
 
+
+
+
+
+  
