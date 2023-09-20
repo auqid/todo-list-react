@@ -11,7 +11,7 @@ const RenderTasks = (props) => {
   
   console.log('from render tasks',props)
     if (props.title.length===0){
-      return<div className='task__invalid'>Add Something!</div>
+      return<div className='task__wrong'>Existense Is Pain!!!</div>
     }
   let status = check ?'task':'task__completed'
     return (
@@ -21,7 +21,7 @@ const RenderTasks = (props) => {
      <div className='task__date'> <div>Date: {props.date} </div><div>Time: {props.time}</div></div>
     <div className='task__title'>{props.title}                                                                                       
     </div>
-    <div className='task__done'>{!check?'Goodjob!':'You can do it!'}</div>
+    <div className='task__done'>{!check?'Good Job!':'You can do it Jerry!'}</div>
     
     
   <div className="checkbox">
