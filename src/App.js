@@ -22,7 +22,7 @@ const taskCreator=(enteredTasks)=>{
   
   return (
     <div className="App">
-      CAN DO!!
+      
       <Input submission={taskCreator}></Input>
       <TaskList items={tasks} ></TaskList> 
     </div>
