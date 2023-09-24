@@ -1,13 +1,12 @@
 .sup{
-    margin-left: 15%;
-  background: rgb(195,162,34);
-  background-color: #4158D0;
-/* background-image: linear-gradient(43deg, #d09941 0%, #cd8c13 46%, #FFCC70 100%); */
+  margin-left: 15%;
+ 
+  
+
 background-image: url(../../../public/1680025.jpg);
 background-size: cover;
-   
-    align-content:center;
-    justify-content: center;
+ align-content:center;
+justify-content: center;
     
     
     

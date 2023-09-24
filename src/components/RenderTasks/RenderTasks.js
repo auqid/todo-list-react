@@ -21,7 +21,7 @@ const RenderTasks = (props) => {
      <div className='task__date'> <div>Date: {props.date} </div><div>Time: {props.time}</div></div>
     <div className='task__title'>{props.title}                                                                                       
     </div>
-    <div className='task__done'>{!check?'Good Job!':'You can do it Jerry!'}</div>
+    <div >{!check?'Good Job!':'You can do it Jerry!'}</div>
     
     
   <div className="checkbox">

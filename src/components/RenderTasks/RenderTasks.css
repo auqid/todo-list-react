@@ -15,7 +15,7 @@
     padding: 100px;
     width: 62%;
     margin-left: 15%;
-    background-image: url(../../../public/cando.jpg);
+    background-image: url(/public/cando.jpg);
     background-size: contain;
     
     
@@ -24,22 +24,24 @@
 
 .task__completed{
     display: flex;
-    background: rgba(3, 238, 50, 0.74);
     align-content: center;
     justify-content: space-between;
     margin:10px;
     border: solid red 1px;
-    padding: 100px;
-    width: 62%;
-    margin-left: 15%;
     flex-wrap: wrap;
     color: black;
     border-radius: 12px;
-    
-    
-    background-image: url(../../../public/completed.png);
+    padding: 100px;
+    width: 62%;
+    margin-left: 15%;
+    background-image: url(/public/completed.jpg);
     background-size: contain;
+    
+    
+
 }
+
+
 .task__wrong{
     display: flex;
     background-color:rgb(255, 0, 0);

@@ -2,12 +2,11 @@
   
 body {
   margin: 0;
-  background: #000000;
+  
   font-family: 'Mooli', sans-serif;
   font-weight: 600;
-  background: url(../public/background.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
+  background-image: url(/public/background.jpg);
+  background-repeat: repeat;
 
 
   
