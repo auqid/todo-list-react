@@ -1,5 +1,5 @@
 .sup{
-  margin-left: 15%;
+  
  
   
 
@@ -11,12 +11,13 @@ justify-content: center;
     
     
     border: solid red 1px;
-    padding:150px;
+   
     flex-wrap: wrap;
     color: white;
+    padding:95px;
     border-radius: 12px;
-    
-    width: 57.5%;
+    margin-left: 15%;
+    width: 55.5%;
     
 }
 
